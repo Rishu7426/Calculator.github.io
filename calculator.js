@@ -101,7 +101,7 @@ for (var i = 0; i < buttons.length; i++) {
             }
         }else if(value == 'clicked'){
                          display.style.fontSize = "1.7rem";
-                         display.style.paddingLeft = ".4em"
+                         display.style.paddingLeft = ".1em"
                          display.style.backgroundColor = "rgba(255,255,255,.4)"
                          display.innerText = "Welcome to Rishu's calculator" ;
         
