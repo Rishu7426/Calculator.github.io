@@ -1,6 +1,6 @@
 var buttons = document.querySelectorAll('button');
 var display = document.getElementById("display");
-var operand1 = null;
+var operand1 = 0;
 var operand2 = null;
 var operator = null;
 
@@ -17,7 +17,7 @@ for (var i = 0; i < buttons.length; i++) {
 
         } else if (value == '*') {
             operand1 = parseFloat(display.innerText);
-            display.innerText = 'x';
+            display.innerText = '*';
 
         } else if (value == '/') {
             operand1 = parseFloat(display.innerText);
@@ -42,7 +42,7 @@ for (var i = 0; i < buttons.length; i++) {
 
         }else if(value == 'clicked'){
             display.style.fontSize = "1.7rem";
-            display.style.paddingLeft = ".8em"
+            display.style.paddingLeft = ".4em"
             display.style.backgroundColor = "rgba(255,255,255,.4)"
             display.innerText = "Welcome to Rishu's calculator" ;
         } else {
